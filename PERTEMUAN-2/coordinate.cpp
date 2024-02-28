@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -9,7 +9,7 @@ struct coordinate {
 
 
 int main(){
-    //koordinate* pertama = (koordinate*) malloc(sizeof(koordinate));
+    //coordinate* pertama = (coordinate*) malloc(sizeof(coordinate));
     coordinate* pertama = new coordinate;
 
     //(*pertama).x = 10;
